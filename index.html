@@ -9,11 +9,25 @@
     <header id="header">
         <h1>Atlantica</h1>
     </header>
+
+    <nav>
     <h3>The City of Ocean Dreams!</h3>
-    <h2>Discover Atlantica</h2>
+    <a href="#description">Description|</a>
+    <a href="#Attractions">Attractions|</a>
+    <a href="#Statistics">Statistics|</a>
+    <a href="#Feedback">Feedback|</a>
+    <a href="#quotes">Quotes|</a>
+    <a href="#contact">Contact</a>
+   </nav>
+
+    <section>
+    <h2 id="description">Discover Atlantica</h2>
     <img src="https://i.ytimg.com/vi/UV0wGWG4Cu0/maxresdefault.jpg" alt="Atlantica image" width="600px">
     <p>Atlantica, the city where the horizon merges the sky with the ocean, offering dreams a canvas as vast as the sea.</p>
-    <h2>Attractions</h2>
+    </section>
+
+    <section>
+    <h2 id="Attractions">Attractions</h2>
     <h3>Main Attractions</h3>
     <ol>
        <li>Atlantis Tower</li>
@@ -31,8 +45,88 @@
             <li>Mermain Cove</li>
         </ul>
     </ul>
+   </section>
 
+   <section>
+    <h2 id="Statistics">City Statistics</h2>
+    <table border="1">
+        <thead>
+            <th>Attribute</th>
+            <th>Value</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Population</td>
+                <td>5 Million</td>
+            </tr>
+            <tr>
+                <td>Landmarks</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Parks</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Schools</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Beaches</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
 
+    <section>
+    <h2 id="Feedback">Feedback</h2>
+    <form method="get">
+        <label for="name">Name:</label>
+        <input id="name" type="taxt" required>
+        <br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" required>
+        <br>
+        <label for="age">Age:</label>
+        <input id="age" type="number" required>
+        <br>
+        <label for="faviourates">Faviourate Attractions:</label>
+        <select id="faviourates">
+            <option>Atlantis Tower</option>
+            <option>Deep Sea Museum</option>
+            <option>The Oceanic Bridge</option>
+            <option>Merman's Street</option>
+            <option>Neptune's Donner</option>
+            <option>North Beach</option>
+            <option>Reef bay</option>
+            <option>Mermain Cove</option>
+        </select>
+        <br>
+        <label for="comment">Comments:</label>
+        <textarea id="comment" rows="4" cols="25"></textarea>
+        <br>
+        <label for="newsletter">Newsletter:</label>
+        <input id="newsletter" type="checkbox" name="Subscribe to our Newsletter">
+        <label for="newsletter">Subscribe to our Newsletter</label>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+   </section>
+
+  <section>
+       <h2 id="quotes">What Citizens Say</h2>
+         <p>"Atlantica's beaches are paradise on Earth. Nothing beats a sunset here!" -Alex</p>
+         <p>The blend of modern skyscrapers and ancient oceanic history is mesmerizing." -Isabelle</p>
+  </section>
+   
+  <footer id="footer">
+      <h2 id="contact">Contact Us</h2>
+      <p>Atlantica Tourism Office</p>
+      <p>Email:<a href="info@atlantika.com">info@atlantika.com</a></p>
+      <p>Pnone: 123-456-7890 </p>
+      <p>©2023 Atlantica Tourism Dive into Dreams!</p>
+  </footer>
 </body>
 </html>
 
